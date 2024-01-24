@@ -119,8 +119,8 @@ body {
 
 .grid {
     display: grid;
-        grid-template-columns: repeat(3, 400px);
-        grid-template-rows: repeat(2, 500px);
+        grid-template-columns: repeat(2, 400px);
+        /* grid-template-rows: repeat(2, 500px); */
     gap: 50px;
     justify-content: center;
     padding-top: 15%;
@@ -240,8 +240,8 @@ a {
         font-size: 3rem;
     }
     .grid {
-        grid-template-columns: repeat(3, 300px);
-        grid-template-rows: repeat(2, 400px);
+        grid-template-columns: repeat(2, 300px);
+        /* grid-template-rows: repeat(2, 400px); */
         margin-top: 40px;
     }
     .images {
@@ -264,8 +264,8 @@ a {
         width: 50%;
     }
     .grid {
-        grid-template-columns: repeat(3, 250px);
-        grid-template-rows: repeat(2, 350px);
+        grid-template-columns: repeat(2, 250px);
+        /* grid-template-rows: repeat(2, 350px); */
     }
     .images {
         height: 150px;
@@ -303,7 +303,7 @@ a {
     }
     .grid {
         grid-template-columns: repeat(2, 300px);
-        grid-template-rows: repeat(3, 400px);
+        /* grid-template-rows: repeat(3, 400px); */
         gap: 35px;
     }
     .images {
@@ -332,7 +332,7 @@ a {
 @media (max-width: 680px) {
     .grid {
         grid-template-columns: repeat(1, 400px);
-        grid-template-rows: repeat(6, 400px);
+        grid-template-rows: repeat(2, 400px);
         gap: 25px;
     }
     .images {
